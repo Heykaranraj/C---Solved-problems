@@ -1,0 +1,14 @@
+//to print area and perimeter of a rectangle
+#include<stdio.h>
+int main(){
+    float l,w,area,perimeter;
+    printf("Enter the length of the rectangle\n");
+    scanf("%f",&l);
+    printf("Enter the width of the rectangle\n");
+    scanf("%f",&w);
+    area=l*w;         //formula for area
+    perimeter = 2*(l+w);   //formula for perimeter
+    printf("The area of rectangle is : %f\n", area);
+    printf("The perimeter of rectangle is : %f\n", perimeter);
+ return 0;   
+}
