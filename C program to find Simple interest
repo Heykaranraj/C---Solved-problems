@@ -1,0 +1,14 @@
+// to print simple interest
+#include<stdio.h>
+int main(){
+    float principal,time,rate,si;
+    printf("Enter the principal \n");
+    scanf("%f",&principal);
+    printf("Enter the time \n");
+    scanf("%f",&time);
+    printf("Enter the rate \n");
+    scanf("%f",&rate);
+    si=(principal*time*rate)/100;   //formula to calculate simple interest
+    printf("The simple interest of entered amount is : %f", si);
+    return 0;
+}
