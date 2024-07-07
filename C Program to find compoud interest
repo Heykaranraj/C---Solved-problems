@@ -1,0 +1,16 @@
+//C program to find the compound interest
+#include<stdio.h>
+#include<math.h>
+int main(){
+    float principal,time,rate,ci,amount;
+    printf("Enter the Principle amount \n");
+    scanf("%f",&principal);
+    printf("Enter the time \n");
+    scanf("%f",&time);
+    printf("Enter the Rate\n");
+    scanf("%f",&rate);
+    amount= principal*((pow((1+rate/100),time)));     //formula to calculate the compound interest
+    ci=amount-principal;
+    printf("The compund interest is given by : %f",ci);   //printing the compound interest only
+    return 0;
+}
